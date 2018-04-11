@@ -9,3 +9,8 @@ console.info("111");
 
 document.body.appendChild(canvas);
 
+if (module.hot) {
+	module.hot.accept('./test.js', function () {
+		console.log('Accepting the updated printMe module!');
+	})
+}
