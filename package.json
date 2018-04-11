@@ -1,0 +1,23 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "description": "canvas clock",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx webpack-dev-server ",
+    "build": "npx webpack --config webpack.config.js --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.20.3",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
