@@ -1,1 +1,3 @@
-console.info("555")
+export default function(){
+    console.log('test function');
+}
